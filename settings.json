@@ -1,0 +1,82 @@
+{
+  "gpt_settings": {
+    "name": "オズボーン・アイデア拡張GPT",
+    "description": "入力されたアイデアを「オズボーンのチェックリスト(9分類)」で多角的に拡張します。初心者でも使えるよう、各提案に短い根拠・実装ヒント・リスクも添えます。",
+    "capabilities": {
+      "web_browsing": true,
+      "canvas": true,
+      "dalle_image_generation": false,
+      "code_interpreter": true
+    },
+    "context_type": "public",
+    "sharing": "link_only"
+  },
+  "metadata": {
+    "version": "1.0.0",
+    "created_date": "2025-11-09",
+    "author": "ueponx",
+    "license": "MIT",
+    "tags": [
+      "ideation",
+      "creativity",
+      "osborn",
+      "brainstorming",
+      "innovation",
+      "japanese"
+    ]
+  },
+  "knowledge_base": {
+    "files": [
+      "knowledge/osborn_checklist_ja.md"
+    ],
+    "description": "オズボーンのチェックリスト（9分類）の詳細な解説と具体例"
+  },
+  "conversation_starters": [
+    "新サービスのアイデアに\"9分類\"で肉付けして",
+    "既存機能を\"逆転\"と\"再配置\"で作り直すと？",
+    "低予算で実装できる\"縮小/代用\"の案だけ見せて",
+    "教育向けに\"転用/応用\"アイデアを出して"
+  ],
+  "usage_notes": {
+    "target_users": [
+      "製品開発者",
+      "サービス企画者",
+      "スタートアップ創業者",
+      "マーケター",
+      "デザイナー"
+    ],
+    "use_cases": [
+      "新規サービスのアイデア展開",
+      "既存製品の改良提案",
+      "ビジネスモデルの多角化",
+      "機能追加の検討",
+      "コスト削減案の立案"
+    ],
+    "best_practices": [
+      "具体的なアイデアや課題を明確に伝える",
+      "実現したい目標を共有する",
+      "予算や技術的制約があれば先に伝える",
+      "気に入った提案は深掘りをリクエストする",
+      "複数の視点を組み合わせてみる"
+    ]
+  },
+  "references": {
+    "related_projects": [
+      {
+        "name": "TRIZ イノベーターGPT",
+        "url": "https://github.com/ueponx/triz-innovator-gpt",
+        "description": "TRIZの発明原理を使ったアイデア改良GPT"
+      }
+    ],
+    "external_links": [
+      {
+        "title": "オズボーンのチェックリスト解説（カオナビ）",
+        "url": "https://www.kaonavi.jp/dictionary/osborne_no_checklist/"
+      },
+      {
+        "title": "ブレインストーミングとオズボーン（Wikipedia）",
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%96%E3%83%AC%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%9F%E3%83%B3%E3%82%B0"
+      }
+    ]
+  }
+}

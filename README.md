@@ -93,9 +93,7 @@ osborn-idea-expansion-gpt/
 ├── knowledge/                     # 知識ベース
 │   └── osborn_checklist_ja.md    # オズボーンのチェックリスト詳細
 ├── conversation-starters.txt     # 会話のきっかけ
-├── settings.json                 # その他の設定
-└── examples/                     # 使用例
-    └── sample-sessions.md        # サンプルセッション
+└── settings.json                 # その他の設定
 ```
 
 ## 🔗 参考リンク
@@ -111,10 +109,6 @@ MIT License
 ## ⚠️ 注意事項
 
 このカスタムGPTを使用するには、ChatGPT Plus、Pro、Team、またはEnterpriseのサブスクリプションが必要です。
-
-## 🤝 コントリビューション
-
-改善提案やバグ報告は、Issuesまたはプルリクエストでお願いします。
 
 ## 📖 関連プロジェクト
 
